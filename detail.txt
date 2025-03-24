@@ -1,0 +1,22 @@
+PJ:
+Tạo 1 front end app: Ứng dụng bán hàng (rau củ) bằng expo
+Screen 1: Splash screen, sau khi chạm bất kì thì chuyển đến Scr2
+Screen 2: onbroading, bấm next-> next -> getstarted để chuyển đến Scr3
+Screen 3: trang đăng nhập(với sdt, với google, fb) Click đăng nhập sdt để chuyển đến Scr4
+Screen 4: nhập số điện thoại
+Screen 5: nhập digit code
+
+----------------------------
+E:
+cd E:\CNPM\LT Mobile\nectarApp
+npx create-expo-app nectarApp --template blank
+npx expo start
+git init
+git remote add origin https://github.com/RevenantKitana/nectarApp.git
+git pull --rebase origin main
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git push -u origin main
+
+
